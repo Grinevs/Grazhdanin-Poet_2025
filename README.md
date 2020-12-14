@@ -1,4 +1,4 @@
-# Grazhdanin-Poet_2025
+# Grazhdanin Poet 2025
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
