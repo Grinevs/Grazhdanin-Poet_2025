@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root {
+  background-color: white;
+  max-width: 1280px;
+  margin: 0 auto;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#page {
+  width: 100%;
+}
+
+@import url(./vendor/normalize.css);
+
+.header {
+  display: flex;
+  height: 80px;
+  border-bottom: 1px black solid;
+  padding-left: 32px;
+  padding-right: 32px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header__logo{
+  width: 189px;
+  height: 56px;
+  background-color: #C4C4C4;
+}
+
+.header__nav {
+  display: flex;
+  flex-basis: 50%;
+  
+}
+
+.nav__item {
+  display: block;
+  padding-right:20px ;
+
+}
+
+.header__faq {
+  justify-self: end;
+  display: block;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 124px;
+
+}
+
+.search__title {
+  margin: 208px 135px 48px 135px;
+  text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.form__edit {
+  outline: none;
+  border-radius: 200px;
+  width: 600px;
+  height: 60px;
+  position: relative;
+}
+
+.form__button {
+  width: 80px;
+  height: 32px;
+  border-radius: 200px;
+  position: relative;
+  top:0;
+  left: -100px;  
+}
+
+.map {
+  width: auto;
+  height: 500px;
 }
