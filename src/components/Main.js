@@ -56,7 +56,7 @@ export default function Main() {
   // }
 // <CurrentUserContext.Provider value={currentUser}></CurrentUserContext.Provider>
 // непонятно как сделать всплывающие балоны на реакте)  разбираюьс короч
-// можно сделасть с перезагрузкой, но не для того я выбрал реакт)
+// можно сделасть с перезагрузкой, но не для того я выбрал реакт) если можнно помогите
   return(
     
     <div className="main">
