@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
+import Popup from "./Popup";
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="page">
       <Header />
       <Main />
-      
+      <Popup />
     </div>
   );
 }

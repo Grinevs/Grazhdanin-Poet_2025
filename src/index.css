@@ -86,3 +86,43 @@
   width: auto;
   height: 500px;
 }
+
+.popup {
+  width: 325px;
+  padding: 0 8px;
+  color: #000;
+  background-color: #fff;
+  box-sizing: border-box;
+  position: absolute;
+  top: 800px;
+  left: 130px;
+  border: 2px #000 solid;
+}
+.popup__title {
+  padding: 0;
+  margin: 20px 0 16px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.popup__enter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+  margin-bottom: 20px;
+}
+
+.popup__input {
+  width: 260px;
+}
+
+.popup__button-filter {
+  padding: 0;
+  background-color: transparent;
+  background: url(./images/Vector.svg) no-repeat center;
+  border: none;
+  width: 25px;
+  height: 40px;
+}
