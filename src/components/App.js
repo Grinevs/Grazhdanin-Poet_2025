@@ -3,6 +3,7 @@ import Main from "./Main";
 import Footer from "./Footer";
 import Popup from "./Popup";
 import Tabs from "./Tabs";
+import FAQ from "./FAQ";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <Popup />
       <Tabs />
+      <FAQ />
     </div>
   );
 }
