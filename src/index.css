@@ -305,7 +305,7 @@
   height: 165px;
 }
 #tab_2 .diagramm__block:nth-child(12) {
-  height: 80px;
+  height: 100px;
 }
 
 #tab_3 .diagramm__block:nth-child(1){
@@ -339,23 +339,23 @@
   height: 90px;
 }
 #tab_3 .diagramm__block:nth-child(11) {
-  height: 70px;
+  height: 80px;
 }
 #tab_3 .diagramm__block:nth-child(12) {
   height: 100px;
 }
 
 #tab_4 .diagramm__block:nth-child(1){
-  height: 50px;
+  height: 80px;
 }
 #tab_4 .diagramm__block:nth-child(2) {
   height: 120px;
 }
 #tab_4 .diagramm__block:nth-child(3) {
-  height: 80px;
+  height: 100px;
 }
 #tab_4 .diagramm__block:nth-child(4) {
-  height: 60px;
+  height: 120px;
 }
 #tab_4 .diagramm__block:nth-child(5) {
   height: 100px;
@@ -379,5 +379,50 @@
   height: 150px;
 }
 #tab_4 .diagramm__block:nth-child(12) {
-  height: 100px;
+  height: 120px;
+}
+
+/* ---------FAQ----------- */
+
+.faq {
+  margin: 0 auto 120px;
+}
+
+.faq__title {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.faq__item {
+  margin-bottom: 32px;
+}
+
+.faq__question {
+  display: block;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.faq__input {
+  appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.faq__input:checked + .faq__answer {
+  display: block;
+}
+
+.faq__answer {
+  display: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 28px;
 }
