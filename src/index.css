@@ -1,15 +1,17 @@
+@import url(./vendor/normalize.css);
+@import url(./fonts/fonts.css);
+
 #root {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
   background-color: white;
   max-width: 1280px;
   margin: 0 auto;
- 
 }
 
 #page {
   width: 100%;
 }
-
-@import url(./vendor/normalize.css);
 
 .header {
   display: flex;
@@ -86,9 +88,10 @@
   width: auto;
   height: 500px;
 }
-
+/* -------------popup--------------- */
 .popup {
   width: 325px;
+  min-height: 390px;
   padding: 0 8px;
   color: #000;
   background-color: #fff;
@@ -125,4 +128,256 @@
   border: none;
   width: 25px;
   height: 40px;
+}
+
+/* -------------tabs--------------- */
+.tabs-container {
+  max-width: 1010px;
+  margin: 68px auto 120px;
+}
+
+.tabs-container__title {
+  padding: 0;
+  margin: 0 0 32px 0;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+}
+
+.tabs__items {
+  margin: auto;
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs__item {
+  margin: 0;
+  padding: 0 0 8px 0;
+  opacity: .8;
+  width: 160px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .8);
+}
+
+/* .tabs__item:active{
+  opacity: 1;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+} */
+
+.graph__block {
+  display: none;
+}
+
+.graph__block:target {
+  display: block;
+}
+
+.graph {
+  padding-top: 72px;
+}
+
+.graph__time {
+  padding: 0;
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.graph__count {
+  padding: 0;
+  margin: 0 0 22px 0;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.graph__text {
+  padding: 0;
+  margin: 0 0 76px 0;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.diagramm {
+  width: 1010px;
+  height: 282px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.diagramm__block {
+  width: 40px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-bottom: none;
+  background-color: #C4C4C4;
+  writing-mode: vertical-rl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diagramm__text {
+  margin: 0;
+  padding: 0;
+  transform: rotate(180deg);
+}
+
+.diagramm__block:nth-child(1) {
+  height: 107px;
+}
+.diagramm__block:nth-child(2) {
+  height: 150px;
+}
+.diagramm__block:nth-child(3) {
+  height: 230px;
+}
+.diagramm__block:nth-child(4) {
+  height: 194px;
+}
+.diagramm__block:nth-child(5) {
+  height: 150px;
+}
+.diagramm__block:nth-child(6) {
+  height: 165px;
+}
+.diagramm__block:nth-child(7) {
+  height: 150px;
+}
+.diagramm__block:nth-child(8) {
+  height: 165px;
+}
+.diagramm__block:nth-child(9) {
+  height: 194px;
+}
+.diagramm__block:nth-child(10) {
+  height: 253px;
+}
+.diagramm__block:nth-child(11) {
+  height: 165px;
+}
+.diagramm__block:nth-child(12) {
+  height: 107px;
+}
+
+#tab_2 .diagramm__block:nth-child(1){
+  height: 250px;
+}
+#tab_2 .diagramm__block:nth-child(2) {
+  height: 240px;
+}
+#tab_2 .diagramm__block:nth-child(3) {
+  height: 90px;
+}
+#tab_2 .diagramm__block:nth-child(4) {
+  height: 100px;
+}
+#tab_2 .diagramm__block:nth-child(5) {
+  height: 150px;
+}
+#tab_2 .diagramm__block:nth-child(6) {
+  height: 165px;
+}
+#tab_2 .diagramm__block:nth-child(7) {
+  height: 100px;
+}
+#tab_2 .diagramm__block:nth-child(8) {
+  height: 80px;
+}
+#tab_2 .diagramm__block:nth-child(9) {
+  height: 200px;
+}
+#tab_2 .diagramm__block:nth-child(10) {
+  height: 190px;
+}
+#tab_2 .diagramm__block:nth-child(11) {
+  height: 165px;
+}
+#tab_2 .diagramm__block:nth-child(12) {
+  height: 80px;
+}
+
+#tab_3 .diagramm__block:nth-child(1){
+  height: 100px;
+}
+#tab_3 .diagramm__block:nth-child(2) {
+  height: 120px;
+}
+#tab_3 .diagramm__block:nth-child(3) {
+  height: 170px;
+}
+#tab_3 .diagramm__block:nth-child(4) {
+  height: 200px;
+}
+#tab_3 .diagramm__block:nth-child(5) {
+  height: 180px;
+}
+#tab_3 .diagramm__block:nth-child(6) {
+  height: 165px;
+}
+#tab_3 .diagramm__block:nth-child(7) {
+  height: 100px;
+}
+#tab_3 .diagramm__block:nth-child(8) {
+  height: 105px;
+}
+#tab_3 .diagramm__block:nth-child(9) {
+  height: 120px;
+}
+#tab_3 .diagramm__block:nth-child(10) {
+  height: 90px;
+}
+#tab_3 .diagramm__block:nth-child(11) {
+  height: 70px;
+}
+#tab_3 .diagramm__block:nth-child(12) {
+  height: 100px;
+}
+
+#tab_4 .diagramm__block:nth-child(1){
+  height: 50px;
+}
+#tab_4 .diagramm__block:nth-child(2) {
+  height: 120px;
+}
+#tab_4 .diagramm__block:nth-child(3) {
+  height: 80px;
+}
+#tab_4 .diagramm__block:nth-child(4) {
+  height: 60px;
+}
+#tab_4 .diagramm__block:nth-child(5) {
+  height: 100px;
+}
+#tab_4 .diagramm__block:nth-child(6) {
+  height: 120px;
+}
+#tab_4 .diagramm__block:nth-child(7) {
+  height: 140px;
+}
+#tab_4 .diagramm__block:nth-child(8) {
+  height: 165px;
+}
+#tab_4 .diagramm__block:nth-child(9) {
+  height: 180px;
+}
+#tab_4 .diagramm__block:nth-child(10) {
+  height: 200px;
+}
+#tab_4 .diagramm__block:nth-child(11) {
+  height: 150px;
+}
+#tab_4 .diagramm__block:nth-child(12) {
+  height: 100px;
 }
