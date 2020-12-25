@@ -15,25 +15,30 @@
 
 .header {
   display: flex;
+  border-radius: 60px 60px 0 0;
   height: 80px;
   border-bottom: 1px black solid;
   padding-left: 32px;
   padding-right: 32px;
-  align-items: center;
+  padding-bottom: 11px;
+  align-items: flex-end;
   justify-content: space-between;
-
+  background-color: #3E36AB;
+  color: #fff;
+  box-sizing: border-box;
 }
 
 .header__logo{
-  width: 189px;
-  height: 56px;
-  background-color: #C4C4C4;
+  width: 83px;
+  height: 18px;
+  background: url(./images/grazhdanin.svg) no-repeat;
+  border: none;
 }
 
 .header__nav {
   display: flex;
-  flex-basis: 50%;
-  
+  min-width: 585px;
+  justify-content: space-between;
 }
 
 .nav__item {
@@ -45,6 +50,8 @@
 .header__faq {
   justify-self: end;
   display: block;
+  text-decoration: none;
+  color: #fff;
 }
 
 .main {

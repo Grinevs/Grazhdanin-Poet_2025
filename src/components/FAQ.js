@@ -1,6 +1,6 @@
 export default function FAQ() {
   return (
-    <div className="faq">
+    <div className="faq" id="faq">
       <h2 className="faq__title">faq</h2>
 
       <div className="faq__item">
